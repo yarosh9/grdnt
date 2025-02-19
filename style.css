@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #cccccc;
 }
 
 h1 {
     color: #333;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 p {
