@@ -1,38 +1,44 @@
-# Gradients Garden
+# GRDNT — Digital Gradient Garden
 
-An exploration of **vector gradients** and the creation of collections from them is an attempt to study the digital alchemy that creates an infinitely beautiful world on our screens. Numbers collected into code are a new nature permeating our material reality. Gradients are a reflection on how simple code can be beautiful and how little is needed for this.
+![Preview](1324123.jpg)
 
-![Preview](1324123.jpg)  
+## 🎨 About the Project
+**GRDNT (Gradients Garden / CRYPT☉PHASIA)** is an artistic experiment where vector gradients become a language.  
+It explores the digital alchemy that creates infinitely beautiful worlds on our screens.  
+Numbers collected into code form a new nature permeating our material reality.  
+Gradients are a reflection on how simple code can be beautiful — and how little is needed for this.
 
-## Content
+## 🌱 Goals
+- Build a visual collection of gradients as an artistic language.  
+- Demonstrate the synergy between art and technology.  
+- Use open tools (GitHub, Copilot, Visual Studio) for professional presentation.  
 
-* [Gradients](./svg)
-* Other folders contain gradients for sets.
+## 📂 Content
+- [Gradients](./svg) — core collection of SVG gradients.  
+- Other folders contain gradient sets.  
+- Future research includes **patterns** and **paths** — there is still much to explore!  
 
-Future research includes patterns and, of course, paths. But there is still much to explore in gradients!
+## 🖼️ Inspiration
+This collection is about the **beauty of pure gradients** — simple yet powerful color transitions that bring depth and emotion to designs.  
 
-## Inspiration  
+## 🚀 How to Use
+- Download the SVG files and use them in your projects.  
+- Modify colors and shapes as needed.  
+- Combine them for unique effects.  
 
-This collection is about the **beauty of pure gradients**—simple yet powerful color transitions that bring depth and emotion to designs.  
+## ⚙️ Technical Details
+- Formats: SVG, PNG (preview).  
+- Tools: Microsoft Copilot, Visual Studio, GitHub Pages.  
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
 
-## How to Use  
+## 🙌 Acknowledgements
+- Many thanks to the **MDN team** and their gradients section, which inspired these studies and collections:  
+  * [SVG on MDN](https://developer.mozilla.org/en-US/docs/Web/SVG)  
+  * [SVG Gradients on MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients)  
+- **Microsoft Copilot** — for assisting with idea generation and visualizations.  
+- **GitHub** — for providing the platform for publishing and documentation.  
+- All colleagues and communities supporting digital art.  
 
-- Download the SVG files and use them in your projects  
-- Modify colors and shapes as needed  
-- Combine them for unique effects  
-
-## Thanks
-
-Many thanks to the **MDN team** and their gradients section, which inspired me to create these studies and collections:
-
-* [SVG on MDN](https://developer.mozilla.org/en-US/docs/Web/SVG)
-* [SVG Gradients on MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients)
-
-Great appreciation to **Cy Twombly**, whose works and philosophy have inspired and continue to inspire!
-
-* [Cy Twombly on WikiArt](https://www.wikiart.org/en/cy-twombly)
-
-## License  
-
-These gradients are licensed under **CC BY 4.0 (Attribution 4.0 International)**.  
-You are free to use them for personal and commercial projects, **but please give credit** by linking to this repository or mentioning the author.
+## 📌 Contacts
+Author: [yarosh9](https://github.com/yarosh9)  
+Location: Kharkiv, Ukraine  
