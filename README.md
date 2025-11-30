@@ -14,9 +14,17 @@ Gradients are a reflection on how simple code can be beautiful — and how littl
 - Use open tools (GitHub, Copilot, Visual Studio) for professional presentation.  
 
 ## 📂 Content
-- [Gradients](./svg) — core collection of SVG gradients.  
+- [Gradients](https://yarosh9.github.io/grdnt/allgr.html) — core collection of SVG gradients.  
 - Other folders contain gradient sets.  
 - Future research includes **patterns** and **paths** — there is still much to explore!  
+
+## 📖 Wiki
+For extended documentation, artist statement, biography, and case studies, visit the project Wiki:  
+👉 [GRDNT Wiki](https://github.com/yarosh9/grdnt/wiki)
+
+## 🌀 Gradient Animation
+Explore dynamic gradient experiments and interactive visuals:  
+👉 [Gradient Animation Showcase](https://yarosh9.github.io/grdnt/anim.html)
 
 ## 🖼️ Inspiration
 This collection is about the **beauty of pure gradients** — simple yet powerful color transitions that bring depth and emotion to designs.  
