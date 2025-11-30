@@ -1,0 +1,26 @@
+name: Link Check
+
+on:
+  # Запускать при каждом пуше в ветку main
+  push:
+    branches: [ main ]
+  # Запускать при создании Pull Request
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  link_check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4 # Шаг 1: Получаем ваш код
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v1 # Шаг 2: Используем lychee
+        with:
+          # Файлы, которые нужно сканировать. 
+          # Для сайта Pages это могут быть все Markdown и HTML файлы.
+          args: --max-redirects 5 '**/*.md' '**/*.html' 
+          # Игнорировать локальные файлы, если вы их не хотите проверять.
+          # exclude: 'file.pdf'
+          # Дополнительные опции, например, для ограничения запросов к API:
+          # verbose: true
