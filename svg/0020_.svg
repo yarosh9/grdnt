@@ -1,0 +1,46 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs >
+    <linearGradient
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="0.1"
+       spreadMethod="reflect"
+       id="lg1382">
+      <stop style="stop-color:#440088;stop-opacity:1" offset="0.000" />
+      <stop style="stop-color:#440088;stop-opacity:1" offset="0.500" />
+      <stop style="stop-color:#440088;stop-opacity:0" offset="0.501" />
+      <stop style="stop-color:#440088;stop-opacity:0" offset="1.000" />
+    </linearGradient>
+    <linearGradient
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1"
+       spreadMethod="repeat"
+       id="lg1381">
+      <stop style="stop-color:#ee3300;stop-opacity:1" offset="0.000"  />
+      <stop style="stop-color:#ff4400;stop-opacity:1" offset="0.500"  />
+      <stop style="stop-color:#ddff00;stop-opacity:1" offset="1.000"  />
+    </linearGradient>
+  </defs>
+  <rect
+     style="fill:url(#lg1381);fill-opacity:1;fill-rule:evenodd;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />
+  <rect
+     style="fill:url(#lg1382);fill-opacity:0.2;fill-rule:evenodd;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />
+  <rect
+     style="fill:url(#lg1382);fill-opacity:0.2;fill-rule:evenodd;stroke:none"
+     transform="rotate(90)"
+     width="1000"
+     height="1000"
+     x="0"
+     y="-1000" />
+</svg>

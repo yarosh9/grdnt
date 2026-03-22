@@ -1,0 +1,85 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="lg0">
+      <stop offset="0.00" style="stop-color:#00ccff;stop-opacity:1" />
+      <stop offset="1.00" style="stop-color:#001122;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient 
+       xlink:href="#lg0"
+       id="rg0"
+       cx="0.5"
+       cy="0.5"
+       fx="0.5"
+       fy="0.5"
+       r="0.7"
+       gradientUnits="objectBoundingBox" />
+    <linearGradient id="lg1">
+      <stop offset="0.00" style="stop-color:#00ccff;stop-opacity:0" />
+      <stop offset="0.10" style="stop-color:#001122;stop-opacity:0" />
+      <stop offset="0.15" style="stop-color:#00ccff;stop-opacity:1" />
+      <stop offset="0.20" style="stop-color:#001122;stop-opacity:0" />
+      <stop offset="0.25" style="stop-color:#00ccff;stop-opacity:0.8" />
+      <stop offset="0.30" style="stop-color:#001122;stop-opacity:0" />
+      <stop offset="0.40" style="stop-color:#00ccff;stop-opacity:0.5" />
+      <stop offset="0.50" style="stop-color:#001122;stop-opacity:0" />
+      <stop offset="0.60" style="stop-color:#00ccff;stop-opacity:0.3" />
+      <stop offset="0.80" style="stop-color:#001122;stop-opacity:0" />
+      <stop offset="1.00" style="stop-color:#00ccff;stop-opacity:0" />
+    </linearGradient>
+    <radialGradient 
+       xlink:href="#lg1"
+       id="rg1"
+       cx="0.5"
+       cy="0.5"
+       fx="0.5"
+       fy="0.5"
+       r="0.8"
+       gradientUnits="objectBoundingBox" />
+    <linearGradient id="lg2">
+      <stop offset="0.00" style="stop-color:#001122;stop-opacity:0" />
+      <stop offset="0.10" style="stop-color:#001122;stop-opacity:0" />
+      <stop offset="0.15" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.20" style="stop-color:#001122;stop-opacity:0" />
+      <stop offset="0.25" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.30" style="stop-color:#001122;stop-opacity:0" />
+      <stop offset="0.40" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.50" style="stop-color:#001122;stop-opacity:0" />
+      <stop offset="0.60" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.80" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="1.00" style="stop-color:#001122;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient 
+       xlink:href="#lg2"
+       id="rg2"
+       cx="0.5"
+       cy="0.52"
+       fx="0.5"
+       fy="0.52"
+       r="0.8"
+       gradientUnits="objectBoundingBox" />
+  </defs>
+    <rect
+       style="
+       fill:url(#rg0);
+       fill-opacity:1;"
+       width="1000"
+       height="1000"
+       x="0"
+       y="0" />
+    <rect
+       style="
+       fill:url(#rg2);
+       fill-opacity:0.9;"
+       width="1000"
+       height="1000"
+       x="0"
+       y="0" />
+    <rect
+       style="
+       fill:url(#rg1);
+       fill-opacity:0.5;"
+       width="1000"
+       height="1000"
+       x="0"
+       y="0" />
+</svg>

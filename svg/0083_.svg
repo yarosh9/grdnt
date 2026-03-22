@@ -1,0 +1,47 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="fon">
+      <stop style="stop-color:#00aaaa;stop-opacity:1" offset="0.000" />
+      <stop style="stop-color:#000000;stop-opacity:1" offset="1.000" />
+    </linearGradient>
+    <linearGradient id="lin">
+      <stop style="stop-color:#000000;stop-opacity:0" offset="0.000" />
+      <stop style="stop-color:#00ffff;stop-opacity:1" offset="0.100" />
+      <stop style="stop-color:#00ffff;stop-opacity:1" offset="0.210" />
+      <stop style="stop-color:#000000;stop-opacity:0" offset="0.220" />
+      <stop style="stop-color:#00ffff;stop-opacity:1" offset="0.230" />
+      <stop style="stop-color:#00ffff;stop-opacity:0.1" offset="0.340" />
+      <stop style="stop-color:#000000;stop-opacity:0.7" offset="0.750" />
+      <stop style="stop-color:#000000;stop-opacity:0" offset="1.000" />
+    </linearGradient>
+    <radialGradient xlink:href="#fon" id="221_modified" gradientUnits="objectBoundingBox" cx="0.5"  cy="0.5" fx="0.5" fy="0.5" r="0.5"/>
+    <radialGradient xlink:href="#lin" id="start" spreadMethod="repeat" gradientUnits="objectBoundingBox" cx="0" cy="0" fx="0" fy="0" r="0.2"/>
+    <radialGradient xlink:href="#start" id="000" gradientTransform="translate(0.5 0.5) rotate(0)   scale(0.4 1)"/>
+    <radialGradient xlink:href="#start" id="001" gradientTransform="translate(0.5 0.5) rotate(30)  scale(0.4 1)"/>
+    <radialGradient xlink:href="#start" id="002" gradientTransform="translate(0.5 0.5) rotate(60)  scale(0.4 1)"/>
+    <radialGradient xlink:href="#start" id="003" gradientTransform="translate(0.5 0.5) rotate(90)  scale(0.4 1)"/>
+    <radialGradient xlink:href="#start" id="004" gradientTransform="translate(0.5 0.5) rotate(120) scale(0.4 1)"/>
+    <radialGradient xlink:href="#start" id="005" gradientTransform="translate(0.5 0.5) rotate(150) scale(0.4 1)"/>
+    <radialGradient xlink:href="#start" id="006" gradientTransform="translate(0.5 0.5) rotate(180) scale(0.4 1)"/>
+    <radialGradient xlink:href="#start" id="007" gradientTransform="translate(0.5 0.5) rotate(210) scale(0.4 1)"/>
+    <radialGradient xlink:href="#start" id="008" gradientTransform="translate(0.5 0.5) rotate(240) scale(0.4 1)"/>
+    <radialGradient xlink:href="#start" id="009" gradientTransform="translate(0.5 0.5) rotate(270) scale(0.4 1)"/>
+    <radialGradient xlink:href="#start" id="010" gradientTransform="translate(0.5 0.5) rotate(300) scale(0.4 1)"/>
+    <radialGradient xlink:href="#start" id="011" gradientTransform="translate(0.5 0.5) rotate(330) scale(0.4 1)"/>
+  </defs>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:1;fill:url(#221_modified)"/>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:0.15;fill:url(#000)"/>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:0.15;fill:url(#001)"/>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:0.15;fill:url(#002)"/>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:0.15;fill:url(#003)"/>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:0.15;fill:url(#004)"/>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:0.15;fill:url(#005)"/>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:0.15;fill:url(#006)"/>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:0.15;fill:url(#007)"/>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:0.15;fill:url(#008)"/>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:0.15;fill:url(#009)"/>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:0.15;fill:url(#001)"/>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:0.15;fill:url(#011)"/>
+</svg>
+
+

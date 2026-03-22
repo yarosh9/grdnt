@@ -1,0 +1,177 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<!-- fat mask gradients -->
+<linearGradient
+   x1="0"
+   y1="0"
+   x2="0.025"
+   y2="0.05"
+   spreadMethod="reflect"
+   id="lg1383">
+  <stop style="stop-color:#ffffff;stop-opacity:1" offset="0.000" />
+  <stop style="stop-color:#ffffff;stop-opacity:1" offset="0.700" />
+  <stop style="stop-color:#000000;stop-opacity:0" offset="0.701" />
+  <stop style="stop-color:#000000;stop-opacity:0" offset="1.000" />
+</linearGradient>
+<linearGradient
+   x1="0"
+   y1="0"
+   x2="0"
+   y2="0.025"
+   spreadMethod="reflect"
+   id="lg1380">
+  <stop style="stop-color:#000000;stop-opacity:1" offset="0.000" />
+  <stop style="stop-color:#002222;stop-opacity:1" offset="1.000" />
+</linearGradient>
+<!-- end -->
+<!-- thin dark mask gradients -->
+<linearGradient
+   x1="0"
+   y1="0"
+   x2="0.025" 
+   y2="0.025"
+   spreadMethod="reflect"
+   id="lg1382">
+  <stop style="stop-color:#ffffff;stop-opacity:0.8" offset="0.000" />
+  <stop style="stop-color:#ffffff;stop-opacity:0.8" offset="0.100" />
+  <stop style="stop-color:#000000;stop-opacity:0" offset="0.101" />
+  <stop style="stop-color:#000000;stop-opacity:0" offset="1.000" />
+</linearGradient>
+<linearGradient
+   x1="0"
+   y1="0"
+   x2="0"
+   y2="1"
+   spreadMethod="reflect"
+   id="lg1379">
+  <stop style="stop-color:#222288;stop-opacity:1" offset="0.000" />
+  <stop style="stop-color:#00ffff;stop-opacity:1" offset="1.000" />
+</linearGradient>
+<!-- end -->
+<!-- thin light mask gradients -->
+<linearGradient
+   x1="0"
+   y1="0"
+   x2="0.029" 
+   y2="0.021"
+   spreadMethod="reflect"
+   id="lg1331">
+  <stop style="stop-color:#ffffff;stop-opacity:0.8" offset="0.000" />
+  <stop style="stop-color:#ffffff;stop-opacity:0.8" offset="0.030" />
+  <stop style="stop-color:#000000;stop-opacity:0" offset="0.031" />
+  <stop style="stop-color:#000000;stop-opacity:0" offset="1.000" />
+</linearGradient>
+<linearGradient
+   x1="0"
+   y1="0"
+   x2="0"
+   y2="1"
+   spreadMethod="reflect"
+   id="lg1389">
+  <stop style="stop-color:#008888;stop-opacity:1" offset="0.000" />
+  <stop style="stop-color:#001111;stop-opacity:1" offset="1.000" />
+</linearGradient>
+<!-- end -->
+<!-- thin dark mask gradients -->
+<linearGradient
+   x1="0"
+   y1="0"
+   x2="0.025" 
+   y2="0.025"
+   spreadMethod="reflect"
+   id="lg1382">
+  <stop style="stop-color:#ffffff;stop-opacity:1" offset="0.000" />
+  <stop style="stop-color:#ffffff;stop-opacity:1" offset="0.100" />
+  <stop style="stop-color:#000000;stop-opacity:0" offset="0.101" />
+  <stop style="stop-color:#000000;stop-opacity:0" offset="1.000" />
+</linearGradient>
+<linearGradient
+   x1="0"
+   y1="0"
+   x2="0"
+   y2="1"
+   spreadMethod="reflect"
+   id="lg1379">
+  <stop style="stop-color:#222288;stop-opacity:1" offset="0.000" />
+  <stop style="stop-color:#00ffff;stop-opacity:1" offset="1.000" />
+</linearGradient>
+<!-- end -->
+<!-- end gradients-->
+<!-- fat mask -->
+<mask id="Mask2">
+  <rect
+     style="fill:url(#lg1383);fill-opacity:0.5;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />
+  <rect
+     style="fill:url(#lg1383);fill-opacity:0.5;stroke:none"
+     transform="rotate(90)"
+     width="1000"
+     height="1000"
+     x="0"
+     y="-1000" />
+</mask>
+<!-- end -->
+<!-- thin dakr mask -->
+<mask id="Mask1">
+  <rect
+     style="fill:url(#lg1382);fill-opacity:1;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />
+  <rect
+     style="fill:url(#lg1382);fill-opacity:1;stroke:none"
+     transform="rotate(90)"
+     width="1000"
+     height="1000"
+     x="0"
+     y="-1000" />
+</mask>
+<!-- end -->
+<!-- thin light mask -->
+<mask id="Mask3">
+  <rect
+     style="fill:url(#lg1331);fill-opacity:1;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />
+  <rect
+     style="fill:url(#lg1331);fill-opacity:1;stroke:none"
+     transform="rotate(90)"
+     width="1000"
+     height="1000"
+     x="0"
+     y="-1000" />
+</mask>
+<!-- end -->
+</defs>
+   <rect
+     style="fill:url(#lg1379);fill-opacity:1;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />
+
+   <rect
+     style="fill:url(#lg1380);mask:url(#Mask2);fill-opacity:1;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />
+   <rect
+     style="fill:url(#lg1380);mask:url(#Mask1);fill-opacity:1;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0"  />
+   <rect
+     style="fill:url(#lg1389);mask:url(#Mask3);fill-opacity:1;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0"  />
+</svg>

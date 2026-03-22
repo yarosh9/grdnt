@@ -1,0 +1,46 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="lg7" 
+      x1="0%" y1="0%" x2="0%" y2="33.333%" spreadMethod="reflect">
+      <stop offset="0.000" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.250" style="stop-color:#ffff00;stop-opacity:1" />
+      <stop offset="0.499" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.499" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.500" style="stop-color:#ffff00;stop-opacity:1" />
+      <stop offset="0.509" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.509" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.750" style="stop-color:#ffff00;stop-opacity:1" />
+      <stop offset="1.000" style="stop-color:#001122;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient 
+       xlink:href="#lg7"
+       id="rg77"
+       cx="0.5"
+       cy="0.5"
+       fx="0.5"
+       fy="0.5"
+       r="0.5"
+       gradientUnits="objectBoundingBox"
+       spreadMethod="reflect" />
+  </defs>
+  <rect
+     y="0"
+     x="0"
+     height="1000"
+     width="1000"
+     style="fill:url(#lg7);stroke:none;opacity:1"
+     transform="rotate(90, 500, 500)" />
+  <rect
+     y="0"
+     x="0"
+     height="1000"
+     width="1000"
+     style="fill:url(#lg7);stroke:none;opacity:0.5"
+     transform="rotate(0)" />
+  <rect
+     y="0"
+     x="0"
+     height="1000"
+     width="1000"
+     style="fill:url(#rg77);stroke:none;opacity:0.46" /> 
+</svg>

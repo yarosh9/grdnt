@@ -1,0 +1,27 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="lg7">
+      <stop offset="0.00" style="stop-color:#ffbb00;stop-opacity:1" />
+      <stop offset="0.03" style="stop-color:#ffbb00;stop-opacity:1" />
+      <stop offset="0.97" style="stop-color:#000911;stop-opacity:1" />
+      <stop offset="1.00" style="stop-color:#000911;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient 
+       xlink:href="#lg7"
+       id="rg77"
+       cx="0.5"
+       cy="0.5"
+       fx="0.5"
+       fy="0.15"
+       r="0.47"
+       gradientUnits="objectBoundingBox" />
+  </defs>
+    <rect
+       style="
+       fill:url(#rg77);
+       fill-opacity:1;"
+       width="1000"
+       height="1000"
+       x="0"
+       y="0" />
+</svg>

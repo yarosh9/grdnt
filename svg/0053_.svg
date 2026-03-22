@@ -1,0 +1,69 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="lg821" >       
+      <stop style="stop-color:#ffff00;" offset="0.00" />
+      <stop style="stop-color:#ffff00;" offset="0.10" />
+      <stop style="stop-color:#887700;" offset="0.10" />
+      <stop style="stop-color:#887700;" offset="0.11" />
+      <stop style="stop-color:#ffff00;" offset="0.11" />
+      <stop style="stop-color:#ffff00;" offset="0.12" />
+      <stop style="stop-color:#887700;" offset="0.12" />
+      <stop style="stop-color:#887700;" offset="0.13" />
+      <stop style="stop-color:#ffff00;" offset="0.13" />
+      <stop style="stop-color:#887700;" offset="0.87" />
+      <stop style="stop-color:#ffff00;" offset="0.87" />
+      <stop style="stop-color:#ffff00;" offset="0.88" />
+      <stop style="stop-color:#887700;" offset="0.88" />
+      <stop style="stop-color:#887700;" offset="0.89" />
+      <stop style="stop-color:#ffff00;" offset="0.89" />
+      <stop style="stop-color:#ffff00;" offset="0.90" />
+      <stop style="stop-color:#887700;" offset="0.90" />
+      <stop style="stop-color:#ffff00;" offset="0.89" />
+      <stop style="stop-color:#ffff00;" offset="0.90" />
+      <stop style="stop-color:#887700;" offset="0.90" />
+      <stop style="stop-color:#887700;" offset="1.00" />
+    </linearGradient>
+    <linearGradient id="lg822" >
+        <stop offset="0.00" style="stop-color: #ff0000;stop-opacity:0.0"/>
+        <stop offset="0.50" style="stop-color: #ff0000;stop-opacity:0.0"/>
+
+        <stop offset="0.50" style="stop-color: #003399;stop-opacity:0.2"/>
+        <stop offset="0.70" style="stop-color: #003399;stop-opacity:0.2"/>
+
+        <stop offset="0.70" style="stop-color: #001188;stop-opacity:0.6"/>
+        <stop offset="0.80" style="stop-color: #001188;stop-opacity:0.6"/>
+
+        <stop offset="0.80" style="stop-color: #003399;stop-opacity:0.2"/>
+        <stop offset="1.00" style="stop-color: #003399;stop-opacity:0.2"/>
+    </linearGradient>
+
+
+    <linearGradient
+       x1="0.2" y1="0" x2="0" y2="0"
+       spreadMethod="reflect"
+       id="lg823"
+       xlink:href="#lg821" />
+    <linearGradient
+       x1="0" y1="0" x2="0" y2="0.2"
+       spreadMethod="reflect"
+       id="lg824"
+       xlink:href="#lg821" />
+
+
+    <linearGradient 
+        id="lg1"
+        xlink:href="#lg822"
+        x1="0" y1="0" x2="0.2" y2="0.2"
+        spreadMethod="repeat" />
+    <linearGradient 
+        id="lg2"
+        xlink:href="#lg822"
+        x1="0.2" y1="0" x2="0" y2="0.2"
+        spreadMethod="repeat" />
+  </defs>
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:1.0;fill:url(#lg823);stroke:none" />
+    <rect y="0" x="0" height="1000" width="1000" style="opacity:0.5;fill:url(#lg824);stroke:none" />
+
+    <rect x="0" y="0" height="1000" width="1000" style="fill:url(#lg2);opacity:1;stroke:none" />
+    <rect x="0" y="0" height="1000" width="1000" style="fill:url(#lg1);opacity:1;stroke:none" />
+</svg>

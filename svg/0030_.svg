@@ -1,0 +1,79 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+<linearGradient
+   x1="0"
+   y1="0"
+   x2="0.5"
+   y2="0.5"
+   spreadMethod="reflect"
+   id="lg1382">
+      <stop offset="0.000" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.288" style="stop-color:#00ccff;stop-opacity:1" />
+      <stop offset="0.420" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.484" style="stop-color:#001122;stop-opacity:1" />
+
+      <stop offset="0.486" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.488" style="stop-color:#00ffff;stop-opacity:1" />
+      <stop offset="0.490" style="stop-color:#001122;stop-opacity:1" />
+
+      <stop offset="0.492" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.494" style="stop-color:#00ffff;stop-opacity:1" />
+      <stop offset="0.496" style="stop-color:#001122;stop-opacity:1" />
+
+      <stop offset="0.498" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.500" style="stop-color:#00ffff;stop-opacity:1" />
+      <stop offset="0.502" style="stop-color:#001122;stop-opacity:1" />
+
+      <stop offset="0.504" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.506" style="stop-color:#00ffff;stop-opacity:1" />
+      <stop offset="0.508" style="stop-color:#001122;stop-opacity:1" />
+      
+      <stop offset="0.510" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.1000" style="stop-color:#00ffff;stop-opacity:1" />
+      <stop offset="0.514" style="stop-color:#001122;stop-opacity:1" />
+
+      <stop offset="0.516" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.580" style="stop-color:#001122;stop-opacity:1" />
+      <stop offset="0.712" style="stop-color:#00ccff;stop-opacity:1" />
+      <stop offset="1.000" style="stop-color:#001122;stop-opacity:1" />
+</linearGradient>
+<filter
+   style="color-interpolation-filters:sRGB"
+   id="filter1550"
+   x="-0.5"
+   y="-0.5"
+   width="2"
+   height="2">
+  <feGaussianBlur stdDeviation="11" />
+</filter>
+<linearGradient
+   x1="0"
+   y1="0"
+   x2="0"
+   y2="1"
+   spreadMethod="reflect"
+   id="lg1381">
+  <stop style="stop-color:#112244;stop-opacity:1" offset="0.000" />
+  <stop style="stop-color:#112244;stop-opacity:0" offset="1.000" />
+</linearGradient>
+  </defs>
+  <rect
+     style="fill:url(#lg1382);fill-opacity:1;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />
+  <rect
+     style="fill:url(#lg1382);fill-opacity:0.5;stroke:none"
+     transform="rotate(90)"
+     width="1000"
+     height="1000"
+     x="0"
+     y="-1000" />
+  <rect
+     style="fill:url(#lg1381);fill-opacity:0.7;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />     
+</svg>

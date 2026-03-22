@@ -1,0 +1,38 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="lg1"
+        x1="0" y1="0" x2="0.09" y2="0.05"
+        spreadMethod="repeat">
+        <stop offset="0.00" style="stop-color: #006666"/>
+        <stop offset="0.49" style="stop-color: #00ffff"/>
+        <stop offset="0.49" style="stop-color: #008888"/>
+        <stop offset="0.50" style="stop-color: #008888"/>
+        <stop offset="0.50" style="stop-color: #ffff00"/>
+        <stop offset="1.00" style="stop-color: #444400"/>
+    </linearGradient>
+    <linearGradient id="lg2"
+        x1="0.09" y1="0" x2="0" y2="0.05"
+        spreadMethod="repeat">
+        <stop offset="0.00" style="stop-color: #006666"/>
+        <stop offset="0.49" style="stop-color: #00ffff"/>
+        <stop offset="0.49" style="stop-color: #008888"/>
+        <stop offset="0.50" style="stop-color: #008888"/>
+        <stop offset="0.50" style="stop-color: #ffff00"/>
+        <stop offset="1.00" style="stop-color: #444400"/>
+    </linearGradient>
+  </defs>
+  <rect
+     y="0"
+     x="0"
+     height="1000"
+     width="1000"
+     style="fill:url(#lg1);stroke:none; opacity:1" />
+  <rect
+     y="0"
+     x="0"
+     height="1000"
+     width="1000"
+     style="fill:url(#lg2);stroke:none; opacity:0.5"
+     transform="rotate(0)" />
+</svg>
+

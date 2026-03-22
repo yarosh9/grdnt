@@ -1,0 +1,95 @@
+
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+<linearGradient
+   spreadMethod="reflect"
+   id="lg1381">
+  <stop style="stop-color:#001133;stop-opacity:1" offset="0.000" />
+  <stop style="stop-color:#001133;stop-opacity:1" offset="0.500" />
+  <stop style="stop-color:#001133;stop-opacity:0" offset="0.500" />
+  <stop style="stop-color:#001133;stop-opacity:0" offset="1.000" />
+</linearGradient>
+<linearGradient
+   spreadMethod="reflect"
+   id="lg1">
+  <stop style="stop-color:#ffaa00;stop-opacity:1" offset="0.000" />
+  <stop style="stop-color:#00ff309;stop-opacity:1" offset="1.000" />
+</linearGradient>
+    <linearGradient
+       xlink:href="#lg1"
+       x1="0"
+       y1="1"
+       x2="0"
+       y2="0"
+       id="lg2"
+       spreadMethod="reflect">
+    </linearGradient>
+    <radialGradient
+       xlink:href="#lg1381"
+       gradientUnits="objectBoundingBox"
+       spreadMethod="reflect"
+       cx="0.5"
+       cy="0.3"
+       fx="0.5"
+       fy="0.3"
+       r="0.01"
+       id="radial2" />
+    <radialGradient
+       xlink:href="#lg1381"
+       gradientUnits="objectBoundingBox"
+       cx="0.5"
+       cy="0.6"
+       fx="0.5"
+       fy="0.6"
+       r="0.01"
+       id="radial3" />
+    <radialGradient
+       xlink:href="#lg1381"
+       gradientUnits="objectBoundingBox"
+       cx="0.5"
+       cy="0.7"
+       fx="0.5"
+       fy="0.7"
+       r="0.3"
+       id="radial4" />
+    <radialGradient
+       xlink:href="#lg1"
+       gradientUnits="objectBoundingBox"
+       cx="0.5"
+       cy="0.8"
+       fx="0.5"
+       fy="0.8"
+       r="0.3"
+       id="radial1" />
+  </defs>
+  <rect
+     style="fill:url(#lg2);fill-opacity:1;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />
+  <rect
+     style="fill:url(#radial4);fill-opacity:0.07;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />
+  <rect
+     style="fill:url(#radial3);fill-opacity:0.1;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />
+  <rect
+     style="fill:url(#radial2);fill-opacity:0.1;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />
+  <rect
+     style="fill:url(#radial1);fill-opacity:0.1;stroke:none"
+     width="1000"
+     height="1000"
+     x="0"
+     y="0" />
+</svg>

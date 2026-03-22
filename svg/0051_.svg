@@ -1,0 +1,57 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="lg5" 
+      x1="0" y1="0" x2="0" y2="0.1" spreadMethod="reflect">
+      <stop offset="0.000" style="stop-color:#aa0000;stop-opacity:1" />
+      <stop offset="1.000" style="stop-color:#001122;stop-opacity:1" />
+     </linearGradient>
+     <linearGradient id="lg7">
+      <stop offset="0.00"   style="stop-color:#ff0000;stop-opacity:1" />
+      <stop offset="0.10"  style="stop-color:#ff0000;stop-opacity:0.7" />
+      <stop offset="0.75"  style="stop-color:#ff0000;stop-opacity:0" />
+      <stop offset="1.00" style="stop-color:#ff0000;stop-opacity:0" />
+    </linearGradient>
+    <radialGradient 
+       xlink:href="#lg7"
+       id="rg77"
+       cx="0.5"
+       cy="0.5"
+       fx="0.2"
+       fy="0.5"
+       r="0.5"
+       gradientUnits="objectBoundingBox" />
+  </defs>
+    <rect
+       style="
+       fill:url(#lg5);
+       fill-opacity:1;"
+       width="1000"
+       height="1000"
+       x="0"
+       y="0" />
+    <rect
+       style="
+       fill:url(#rg77);
+       fill-opacity:1;"
+       width="1000"
+       height="1000"
+       x="0"
+       y="0" />
+   <rect
+       style="
+       fill:url(#rg77);
+       fill-opacity:1;"
+       width="1000"
+       height="1000"
+       transform="rotate(180, 500, 500)"
+       x="0"
+       y="0" />
+    <rect
+       style="
+       fill:url(#lg5);
+       fill-opacity:1"
+       width="20"
+       height="1000"
+       x="490"
+       y="0" />
+</svg>
