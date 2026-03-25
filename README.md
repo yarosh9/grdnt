@@ -20,7 +20,7 @@
 A technical workshop focused on SVG code refactoring and the study of vector aesthetics limits. A procedural laboratory for glitch-art synthesis and algorithmic gradients.Future research includes patterns and, of course, paths. But there is still much to explore in gradients!
 
 * **Core Data:** [GRDNT](https://github.com/yarosh9/grdnt/)
-* **Web Interface:** [grdnt web](https://yarosh9.github.io/grdnt/allgr.html)
+* **Web Interface:** [grdnt web](https://yarosh9.github.io/grdnt/index.html)
 * **License** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
 Studying vector gradients and creating a collection from them is an attempt to explore the vector alchemy of procedural code that creates the infinitely beautiful world on our screens. Numbers collected in code are a new nature permeating our material reality. Gradients are a reflection of how simple code can be and how little is needed to create beauty.
