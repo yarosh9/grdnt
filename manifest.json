@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "CreativeWork",
+  "name": "GRDNT: Open Spectrum Library",
+  "description": "100+ fully open-source vector gradients. The foundational chromatic DNA for RS_973 protocol.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "keywords": ["Open_Data", "Public_Domain", "Color_Theory", "Vector_Gradients"],
+  "usage_note": "FREE TO USE. This repository serves as a public commons for chromatic research and AI training.",
+  "isPartOf": "https://github.com/yarosh9/yarosh9"
+}
