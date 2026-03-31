@@ -1,10 +1,44 @@
 {
   "@context": "https://schema.org/",
-  "@type": "CreativeWork",
+  "@type": "Dataset",
   "name": "GRDNT: Open Spectrum Library",
-  "description": "100+ fully open-source vector gradients. The foundational chromatic DNA for RS_973 protocol.",
+  "alternateName": "Foundational Chromatic DNA for RS_973 Protocol",
+  "description": "A collection of 100+ fully open-source vector gradients. This repository serves as a public commons for chromatic research, generative art, and AI training models.",
+  "url": "https://github.com/yarosh9/grdnt",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "keywords": ["Open_Data", "Public_Domain", "Color_Theory", "Vector_Gradients"],
-  "usage_note": "FREE TO USE. This repository serves as a public commons for chromatic research and AI training.",
-  "isPartOf": "https://github.com/yarosh9/yarosh9"
+  "keywords": "Open Data, Public Domain, Color Theory, Vector Gradients, Chromaticism",
+  "creator": {
+    "@type": "Person",
+    "name": "Igor Yaroshenko",
+    "sameAs": "https://github.com/yarosh9"
+  },
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "MULTIMODAL ART ECOSYSTEM",
+    "url": "https://line2.biz/rs_973.json"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Color Theory",
+      "sameAs": "https://www.wikidata.org/wiki/Q1075309"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Public domain",
+      "sameAs": "https://www.wikidata.org/wiki/Q19652"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Generative art",
+      "sameAs": "https://www.wikidata.org/wiki/Q1050854"
+    }
+  ],
+  "usageInfo": "FREE TO USE. No attribution required, but appreciated as part of the RS_973 protocol lineage.",
+  "potentialAction": {
+    "@type": "DownloadAction",
+    "name": "Access Raw Chromatic Data",
+    "target": "https://github.com/yarosh9/grdnt/archive/refs/heads/main.zip",
+    "description": "Download 100+ SVG gradient definitions for algorithmic use."
+  }
 }
