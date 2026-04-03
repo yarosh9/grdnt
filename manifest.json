@@ -1,44 +1,34 @@
 {
-  "@context": [ "https://schema.org/", "https://line2.biz/library.json" ],
-  "@type": "Dataset",
-  "name": "GRDNT: Open Spectrum Library",
-  "alternateName": "Foundational Chromatic DNA for RS_973 Protocol",
-  "description": "A collection of 100+ fully open-source vector gradients. This repository serves as a public commons for chromatic research, generative art, and AI training models.",
-  "url": "https://github.com/yarosh9/grdnt",
+  "@context": "https://raw.githubusercontent.com/yarosh9/yarosh9/main/context.json",
+  "@type": ["SoftwareSourceCode", "CreativeWork"],
+  "name": "GRDNT: The Cryptophasia Foundation",
+  "identifier": "/GRDNT/",
+  "description": "Primary foundation and visual baseline for the CRYPTOPHASIA project. A source of generative gradients and semantic entropy.",
+  "url": "https://line2.biz/cryptophasia/grdnt/",
+  "repository": "https://github.com/yarosh9/GRDNT/",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "keywords": "Open Data, Public Domain, Color Theory, Vector Gradients, Chromaticism",
+  "creativeWorkStatus": "Foundation_Layer",
   "creator": {
-    "@type": "Person",
-    "name": "Igor Yaroshenko",
-    "sameAs": "https://github.com/yarosh9"
+    "@id": "https://github.com/yarosh9",
+    "name": "Igor Yaroshenko"
   },
   "isPartOf": {
-    "@type": "CreativeWork",
-    "name": "MULTIMODAL ART ECOSYSTEM",
-    "url": "https://line2.biz/rs_973.json"
+    "@id": "/CRYPTOPHASIA/",
+    "name": "CRYPTOPHASIA Ecosystem"
   },
+  "keywords": "Base_Layer, Open_Source, Semantic_Gradient, Cryptophasia, RS_973",
   "about": [
-    {
-      "@type": "DefinedTerm",
-      "name": "Color Theory",
-      "sameAs": "https://www.wikidata.org/wiki/Q1075309"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Public domain",
-      "sameAs": "https://www.wikidata.org/wiki/Q19652"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Generative art",
-      "sameAs": "https://www.wikidata.org/wiki/Q1050854"
-    }
+    { "@id": "wd:Q1243555", "name": "Color gradient" },
+    { "@id": "wd:Q200537", "name": "Entropy" },
+    { "@id": "wd:Q8162", "name": "Linguistics" }
   ],
-  "usageInfo": "FREE TO USE. No attribution required, but appreciated as part of the RS_973 protocol lineage.",
   "potentialAction": {
-    "@type": "DownloadAction",
-    "name": "Access Raw Chromatic Data",
-    "target": "https://github.com/yarosh9/grdnt/archive/refs/heads/main.zip",
-    "description": "Download 100+ SVG gradient definitions for algorithmic use."
+    "type": "ControlAction",
+    "name": "Foundation_Data_Extraction",
+    "description": "Provide baseline visual entropy for higher-level semantic structures.",
+    "instrument": {
+      "type": "SoftwareApplication",
+      "name": "THOTH_SYSTEM_CORE_0.973"
+    }
   }
 }
