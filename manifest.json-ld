@@ -18,9 +18,9 @@
   },
   "keywords": "Base_Layer, Open_Source, Semantic_Gradient, Cryptophasia, RS_973",
   "about": [
-    { "@id": "wd:Q1243555", "name": "Color gradient" },
-    { "@id": "wd:Q200537", "name": "Entropy" },
-    { "@id": "wd:Q8162", "name": "Linguistics" }
+    { "@id": "wd:Q1551346", "name": "color gradient" },
+    { "@id": "wd:Q3011618", "name": "Entropy" },
+    { "@id": "wd:Q2078", "name": "SVG" }
   ],
   "potentialAction": {
     "type": "ControlAction",
