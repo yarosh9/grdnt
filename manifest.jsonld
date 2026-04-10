@@ -1,22 +1,31 @@
 {
-  "@context": "https://github.com/yarosh9/yarosh9/blob/df561ab5281cee96b554e3d9c86e93d41e72b0ab/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/yarosh9/yarosh9/df561ab5281cee96b554e3d9c86e93d41e72b0ab/context.jsonld",
   "@type": ["SoftwareSourceCode", "CreativeWork"],
   "name": "GRDNT: The Cryptophasia Foundation",
   "identifier": "/GRDNT/",
-  "description": "Primary foundation and visual baseline for the CRYPTOPHASIA project. A source of generative gradients and semantic entropy.",
-  "url": "https://line2.biz/cryptophasia/grdnt/",
-  "repository": "https://github.com/yarosh9/GRDNT/",
+  "description": "Primary foundation and visual baseline for the CRYPTOPHASIA project. A source of gradients and semantic entropy.",
+  "repo": "https://github.com/yarosh9/GRDNT/",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "programmingLanguage": "SVG, JSON-LD",
   "creativeWorkStatus": "Foundation_Layer",
+  "keywords": [
+    "Vector alchemy",
+    "SVG Gradients",
+    "Visual Cipher",
+    "Form-Constants",
+    "Crypto-Anarchy",
+    "RS_973 Protocol"
+  ],
   "creator": {
-    "@id": "https://github.com/yarosh9",
-    "name": "Igor Yaroshenko"
-  },
+    "@type": "Person",
+    "@id": "https://line2.biz/about_me.json",
+    "name": "Igor Yaroshenko | yarosh9",
+    "sameAs": "https://github.com/yarosh9"
+    },
   "isPartOf": {
     "@id": "/CRYPTOPHASIA/",
     "name": "CRYPTOPHASIA Ecosystem"
   },
-  "keywords": "Base_Layer, Open_Source, Semantic_Gradient, Cryptophasia, RS_973",
   "about": [
     { "@id": "wd:Q1551346", "name": "color gradient" },
     { "@id": "wd:Q3011618", "name": "Entropy" },

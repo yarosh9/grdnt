@@ -2,19 +2,20 @@
   "@context": "https://github.com/yarosh9/yarosh9/blob/df561ab5281cee96b554e3d9c86e93d41e72b0ab/context.jsonld",
   "@type": "DataCatalog",
   "name": "GRDNT: Foundation Map",
-  "identifier": "/GRDNT/",
+  "identifier": "/grdnt/",
   "description": "Mapping the primary gradients and baseline semantic datasets for Cryptophasia.",
   "mainEntityOfPage": "https://line2.biz/rs_973.json",
   "creator": {
     "@id": "https://github.com/yarosh9",
-    "name": "Igor Yaroshenko"
+    "name": "Igor Yaroshenko | yarosh9"
   },
   "dataset": [
     {
-      "@type": ["Dataset", "SoftwareSourceCode"],
+      "@type": ["Dataset", "SoftwareSourceCode", "CreativeWork"],
       "name": "Core Gradient Library",
       "description": "Generative visual baselines with zero-restriction license.",
-      "url": "https://github.com/yarosh9/GRDNT/tree/main/data"
+      "repo": "https://github.com/yarosh9/grdnt/",
+      "gallery": "https://yarosh9.github.io/grdnt/index.html"
     }
   ],
   "potentialAction": {
