@@ -7,7 +7,7 @@
 > Status: [ 2026-03-14 | SC: DRM+EVN+SGN ] | Node: [line2.biz/sarzhyn_yar/4AI...]
 > 
 ### by Igor Yaroshenko 
-[author verification](https://line2.biz/about_me.json)
+[author verification](https://line2.biz/about_me.jsonld)
 
 ## "PURE SVG. ZERO NOISE. INFINITE DEPTH"
 
