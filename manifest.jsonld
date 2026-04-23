@@ -4,6 +4,7 @@
   "name": "GRDNT: The Cryptophasia Foundation",
   "identifier": "/GRDNT/",
   "description": "Primary foundation and visual baseline for the CRYPTOPHASIA project. A source of gradients and semantic entropy.",
+  "image": "https://line2.biz/cryptophasia/art/0018.png",
   "repo": "https://github.com/yarosh9/GRDNT/",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "programmingLanguage": "SVG, JSON-LD",
