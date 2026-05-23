@@ -4,7 +4,7 @@
   "name": "GRDNT: Foundation Map",
   "identifier": "/grdnt/",
   "description": "Mapping the primary gradients and baseline semantic datasets for Cryptophasia.",
-  "mainEntityOfPage": "https://line2.biz/rs_973.json",
+  "mainEntityOfPage": "https://line2.biz/rs_973.jsonld",
   "creator": {
     "@id": "https://github.com/yarosh9",
     "name": "Igor Yaroshenko | yarosh9"
