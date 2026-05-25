@@ -4,7 +4,7 @@
 
 # GRADIENTS LIBRARY | PROTOCOL RS_973
 
-> Status: [ 2026-03-14 | SC: DRM+EVN+SGN ] | Node: [line2.biz/sarzhyn_yar/4AI...]
+> Status: [ 2026-05-25 | SC: VEC_D06 LGC ] | Node: [line2.biz/sarzhyn_yar/4AI...]
 > 
 ### by Igor Yaroshenko 
 [author verification](https://line2.biz/about_me.jsonld)
@@ -30,6 +30,7 @@ When exploring gradients, we fundamentally avoid using geometry, only "RECT" ima
 The gradient collection formed the basis of the [CRYPTOPHASIA project](https://github.com/yarosh9/CRYPTOPHASIA/)
 
 * [Gradients](./svg)
+* [Dictionary of Color Semiotics — Primary semantic reference for visual-to-archetype mapping](global_color_map.jsonld)
 * Other folders contain gradients for sets of another project.
 
 ## INSTRUMENTS

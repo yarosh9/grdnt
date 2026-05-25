@@ -1,5 +1,5 @@
 <svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
+  <defs><title>Dictionary of Color Semiotics | href="https://raw.githubusercontent.com/yarosh9/grdnt/refs/heads/master/global_color_map.jsonld"</title>
 <linearGradient
    x1="0"
    y1="0"
@@ -72,7 +72,6 @@
    y1="0"
    x2="0"
    y2="1"
-   spreadMethod="repeat"
    id="lg1381">
   <stop style="stop-color:#111111;stop-opacity:1" offset="0.000" />
   <stop style="stop-color:#dddddd;stop-opacity:1" offset="1.000" />

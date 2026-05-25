@@ -1,0 +1,158 @@
+{
+"@context": [
+  "https://line2.biz/context.jsonld",
+  { "svgLibrary": { "@id": "https://schema.org/codeRepository", "@type": "@id"  } 
+  }
+],
+  "@type": "Dataset",
+  "name": "CRYPTOPHASIA",
+  "svgLibrary": "https://api.github.com/repos/yarosh9/grdnt/contents/svg/",
+  "description": "Исследовательская база протокола rs_973 по цветовой семиотике и физике восприятия.",
+  "url": "https://line2.biz/cryptophasia",
+  "sameAs": ["https://github.com/yarosh9/grdnt", "https://github.com/yarosh9/CRYPTOPHASIA"],
+  "creator": { "@type": "Person", "name": "yarosh9", "url": "https://github.com/yarosh9" },
+  "hasPart": [
+    {
+      "@type": "ItemList",
+      "name": "Color Theory",
+      "@id": "wd:Q1520130",
+      "itemListElement": [ 
+        { "@type": "Person", "name": "Johann Wolfgang von Goethe", "@id": "wd:Q5879", "description": "немецкий философ и поэт.", "knowsAbout": [ { "@type": "Book", "@id": "wd:Q112667736", "name": "Theory of Colours" } ] },
+        { "@type": "Person", "name": "Wilhelm Ostwald", "@id": "wd:Q12658", "description": "Baltic German chemist", "aiLink": "https://line2.biz/cryptophasia/background/colors_ostwald.txt" },
+        { "@type": "Person", "name": "Hermann von Helmholtz", "@id": "wd:Q60024", "description": "German physicist and physiologist, Тео́рия цветоощуще́ния Гельмго́льца Юнга" },
+        { "@type": "Person", "name": "Carl Jung", "@id": "wd:Q41532", "description": "архетипичное значение цветов", "aiLink": "https://line2.biz/cryptophasia/background/colors_jung.txt" },
+        { "@type": "Person", "name": "Johannes Itten", "@id": "wd:Q123138", "description": "Цвет в дизайне и искусстве, субъективное переживание и контрасты" },
+        { "@type": "Person", "name": "Wassily Kandinsky", "@id": "wd:Q61064", "description": "Цвет в искусстве", "aiLink": "https://line2.biz/cryptophasia/background/colors_kandinsky.txt" },
+        { "@type": "Person", "name": "Josef Albers", "@id": "wd:Q170071", "description": "German-American designer, painter, educator and typographer.", "knowsAbout": [ { "@type": "CreativeWork", "@id": "wd:Q79265519", "name": "Interaction in Color" } ] },
+        { "@type": "Person", "name": "James J. Gibson", "@id": "wd:Q737823", "description": "American psychologist.", "aiLink": "https://line2.biz/cryptophasia/background/colors_gibson.txt" },
+        { "@type": "Person", "name": "Kassia St. Clair", "@id": "wd:Q128710924", "description": "writer,", "knowsAbout": [ { "@type": "Book", "@id": "wd:Q125806080", "name": "The Secret Lives of Colour" } ] },
+        { "@type": "Person", "name": "Michel Pastoureau", "@id": "wd:Q2497623", "description": "French historian, colors Books." },
+        { "@type": "Person", "name": "James Gurney", "@id": "wd:Q3161126", "description": "American writer and artist, Color and Light" },
+        { "@type": "Person", "name": "Rudolf Arnheim","@id": "wd:Q213642", "description": "German psychologist", "aiLink": "https://line2.biz/cryptophasia/background/colors_arnheim.txt", "knowsAbout": [ { "@type": "Book", "@id": "wd:Q19690366", "name": "Art and visual perception" } ] }, 
+        { "@type": "DefinedTerm", "name": "Gyüshyi", "@id": "wd:Q2855926", "description": "Тибетская система пяти первоэлементов (Jung-wa Nga), определяющая метафизические свойства цветов.",
+          "hasPart": [
+            { "@type": "DefinedTerm", "name": "Aether", "@id": "wd:Q381913", "colorCode": "#0000FF", "description": "blue"  },
+            { "@type": "DefinedTerm", "name": "Air", "@id": "wd:Q2637489", "colorCode": "#00FF00", "description": "green"  },
+            { "@type": "DefinedTerm", "name": "Water", "@id": "wd:Q2637515", "colorCode": "#FFFFFF", "description": "white"  },
+            { "@type": "DefinedTerm", "name": "Fire", "@id": "wd:Q2723512", "colorCode": "#FF0000", "description": "red" },
+            { "@type": "DefinedTerm", "name": "Earth", "@id": "wd:Q2488752", "colorCode": "#FFFF00", "description": "yellow"  }
+          ]
+        },
+        { "@type": "DefinedTerm", "name": "Alchemy", "@id": "wd:Q39689", "description": "Классическая алхимическая триада трансформации материи.",
+          "hasPart": [
+            { "@type": "DefinedTerm", "name": "Nigredo", "@id": "wd:Q683745", "colorCode": "#000000", "description": "Чернение, гниение, распад" },
+            { "@type": "DefinedTerm", "name": "Albedo", "@id": "wd:Q2110050", "colorCode": "#FFFFFF", "description": "Беление, очищение" },
+            { "@type": "DefinedTerm", "name": "Citrinitas", "@id": "wd:Q2770148", "colorCode": "#FFD700", "description": "Желтение, солнечный свет, мудрость." },
+            { "@type": "DefinedTerm", "name": "Rubedo", "@id": "wd:Q18087977", "colorCode": "#FF0000", "description": "Покраснение, завершение, просветление" }
+          ]
+        },
+        { "@type": "DefinedTerm", "name": "CIE 1931", "@id": "wd:Q374617", "description": "Математическая модель цветового пространства.", "inDefinedTermSet": [ { "@type": "Organization", "url": "https://cie.co.at/", "name": "Commission internationale de l'éclairage" } ] },
+        { "@type": "DefinedTerm", "name": "Pantone Color System", "@id": "wd:Q849495", "description": "Система подбора цвета.", "inDefinedTermSet": [ { "@type": "Organization", "url": "https://www.pantone.com/", "name": "Pantone LLC", "description": "Институт цвета Pantone.", "aiLink": "https://raw.githubusercontent.com/yarosh9/grdnt/main/svg/0101_.svg" } ] }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Color Symbolism",
+      "@id": "wd:Q1561963",
+      "description": "Richard Of York Gave Battle In Vain.",
+      "itemListElement": [
+        {
+          "@type": "DefinedTerm", "name": "White", "colorCode": "#FFFFFF", "@id": "wd:Q23444", "description": "Чистота, невинность, стерильность, начало.",
+          "hasPart": [
+            { "@type": "CreativeWork", "name": "High key", "@id": "wd:Q16943521", "description": "light art style. Технический дескриптор для участков с минимальной плотностью кода." },
+            { "@type": "Person", "name": "Kenya Hara", "@id": "wd:Q973509", "description": "Философское обоснование «белого» не как пустоты, а как предельной информационной емкости. Япония." },
+            { "@type": "Person", "name": "Vladimir Weisberg", "@id": "wd:Q4106032", "description": "painter, master of 'white on white' painting, explored the metaphysical essence of light and form." },
+            { "@type": "Person", "name": "Herman Melville", "@id": "wd:Q4985", 
+              "hasPart": [
+                { "@type": "Book", "name": "Moby-Dick", "@id": "wd:Q174596", "description": "ужас, сила, неотвратимость." },
+                { "@type": "Book", "name": "White-Jacket", "@id": "wd:Q1431433", "description": "изгой, неудачник, привлекающий внимание." }
+              ]
+            },
+            { "@type": "Person", "name": "Wilkie Collins", "@id": "wd:Q210740", 
+              "hasPart": [
+                { "@type": "Book", "name": "The Woman in White", "@id": "wd:Q1212672", "description": "Тревожная неопределенность на границе видимого." }
+              ]
+            },
+            { "@type": "Person", "name": "Jorge Luis Borges", "@id": "wd:Q909", 
+              "hasPart": [
+                { "@type": "Book", "name": "A Universal History of Infamy", "@id": "wd:Q1196790", "description": "белая маска, тайна скрывающая стыд." }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm", "name": "Black", "colorCode": "#000000", "@id": "wd:Q23445", "description": "Тьма, неопределенность, пустота, конец.",
+          "hasPart": [
+            { "@type": "CreativeWork", "name": "low key", "@id": "wd:Q48967974", "description": "dark art style. ченрное на черном, кьяроскуро Q219540, Amerighi Michelangelo da Caravaggio Q42207 ." },
+            { "@type": "Person", "name": "Edgar Allan Poe", "@id": "wd:Q16867", "description": "Черный как коллапс информации и аффорданс бездны.", 
+              "hasPart": [
+                { "@type": "Book", "name": "The Narrative of Arthur Gordon Pym of Nantucket", "@id": "wd:Q615383", "description": "Тсалал (Остров) Предельная плотность инвариантной структуры." },
+                { "@type": "Book", "name": "The Pit and the Pendulum", "@id": "wd:Q379449", "description": "Тьма подземелья. Коллапс градиента в сингулярность." },
+                { "@type": "Book", "name": "Ligeia", "@id": "wd:Q948786", "description": "Глаза «Черная радуга» как портал в иноприродное." },
+                { "@type": "Book", "name": "The Fall of the House of Usher", "@id": "wd:Q1197735", "description": "Озеро (Tarn) Статическое поглощение (запрещенный fill).", "aiLink": "https://line2.biz/cryptophasia/tools/svg_palette.txt" },
+                { "@type": "Book", "name": "The Raven", "@id": "wd:Q22726", "description": "Черный как вечность и необратимость. Ворон выступает не как птица, а как овеществленная Тень, чей окрас поглощает свет надежды (свет лампы), символизируя неподвижное 'Никогда больше'." },
+                { "@type": "Book", "name": "The Black Cat", "@id": "wd:Q465395", "description": "Черный как зеркало совести и инстинкта саморазрушения. Кот Плутон здесь — не просто животное, а живая тень убийцы, материализовавшаяся из подсознательного стремления человека к злу ради самого зла." }
+              ]
+            },
+            { "@type": "Movie", "name": "Beyond the Black Rainbow", "@id": "wd:Q4900081", "description": "Визуализация запредельной плотности кода и глитч-эстетики. Переход в иноприродное состояние, где цвет становится событием." },
+            { "@type": "Movie", "name": "Black Rainbow", "@id": "wd:Q485144", "description": "Цвет как событие и «оптическая подпись» грядущего. Цвет как событие и «оптическая подпись» грядущего." }
+          ]
+        },
+        {
+          "@type": "DefinedTerm", "name": "Red", "colorCode": "#FF0000", "identifier": "Q3142", "description": "инстинкты, кровь, ярость, опасность, близко.",
+          "hasPart": [
+            { "@type": "Book", "name": "The Masque of the Red Death", "identifier": "Q766086", "description": "цвет как пространственная ловушка - алое в монохроме комнат. Тотальная доминанта." },
+            { "@type": "Book", "name": "Scarlet Sails", "identifier": "Q1277317", "description": "вера, надежда, любовь, терпеливое ожидание." }
+          ]
+        },
+        {
+          "@type": "DefinedTerm", "name": "Orange", "colorCode": "#FA500", "identifier": "Q39338", "description": "цвет перехода от «безопасности» к «опасности», от «бытия» к «распаду». Он редко бывает цветом комфорта; чаще это цвет интенсивности, которая обжигает.",
+          "hasPart": [
+            { "@type": "Book", "name": "To the Lighthouse", "identifier": "Q478016", "description": "Сигнал, оранжевые всполохи (цвет свечей, заката, огня) как моменты «взрыва» времени. В ее текстах оранжевый — это цвет, который вырывает героя из потока повседневности, заставляя остановиться и осознать конечность момента. Это цвет прерывания.." },
+            { "@type": "Book", "name": "The Martian Chronicles", "identifier": "Q918052", "description": "цвет другой планеты, неземной, чужой атмосферы. Оранжевые пески, оранжевое небо Марса — это маркер абсолютного отчуждения. Это цвет, который подчеркивает, что человек находится в среде, где его биология не работает, где привычные земные законы (синий/зеленый) теряют силу. Это цвет инопланетной энтропии." }
+          ]
+        },
+        {
+          "@type": "DefinedTerm", "name": "Yellow", "colorCode": "#FFFF00", "identifier": "Q943", "description": "Солнце, золото, песок, богатство, мед, желтая газета сплетни, желтый дом безумие, осень.",
+          "hasPart": [
+            { "@type": "Book", "name": "I Wandered Lonely as a Cloud", "identifier": "Q2295398", "description": "поле золотых нарциссов, которые танцуют на ветру, символ возрождения души и бесконечного счастья." },
+            { "@type": "Book", "name": "Sunflowers", "identifier": "Q21948567", "description": "энергия жизни, просветление, тепло и высшая радость." },
+            { "@type": "Book", "name": "The King in Yellow", "identifier": "Q1195112", "description": "цвет запредельного, нечеловеческого ужаса. Это безумие как неизбежная плата за соприкосновение с чем-то, что человеческий разум не в силах вынести." },
+            { "@type": "Book", "name": "The Yellow Wall Paper ", "identifier": "Q462373", "description": "желтый цвет становится буквально «героем» и катализатором безумия." }
+          ]
+        },
+        {
+          "@type": "DefinedTerm", "name": "Green", "colorCode": "#00FF00", "identifier": "Q3133", "description": "Весна, цветение, новая жизнь, экологичность, скука.",
+          "hasPart": [
+            { "@type": "Book", "name": "Jan Ingenhousz", "identifier": "Q434131", "description": "растения поглощают углекислый газ и выделяют кислород, на свету с помощью своих зеленых частей, фотосинтез." },
+            { "@type": "Book", "name": "Green: The History of a Color", "identifier": "Q136179707", "description": "Мишель Пастуро. Культурологическое исследование." }
+          ]
+        },
+        {
+          "@type": "DefinedTerm", "name": "Blue", "colorCode": "#0000FF", "identifier": "Q1088", "description": "Порядок, море. Sky, cian, свобода, голубая планета.",
+          "hasPart": [
+            { "@type": "Book", "name": "Zima Blue", "identifier": "Q63105591", "description": "Поиск конечного инварианта, возвращение к исходной точке через сложность." },
+            { "@type": "Book", "name": "Blue: The History of a Color", "identifier": "Q136177756", "description": "Мишель Пастуро. Культурологическое исследование." },
+            { "@type": "Book", "name": "Jonathan Livingston Seagull", "identifier": "Q373536", "description": "Небо — это не предел, небо — это место, где мы учимся быть свободными" },
+            { "@type": "Book", "name": "Blue Flower", "identifier": "Q517012", "description": "символ недостижимой мечты, стремления к трансцендентному, которое скрыто за ширмой повседневности." }
+          ]
+        },
+        {
+          "@type": "DefinedTerm", "name": "Indigo", "colorCode": "#4B0082", "identifier": "Q5967009", "description": "Странное, редкое, дорогое, дети-индиго.",
+          "hasPart": [
+            { "@type": "Book", "name": "Indigo", "identifier": "Q6024740", "description": "Название книги связано с цветом моря и мифологическими мотивами, другие дети." },
+            { "@type": "Book", "name": "indigo children", "identifier": "Q244655", "description": "нью-эйдж: у некоторых детей необычный сине-фиолетовый (индиго) цвет ауры, новая ступень человеческой эволюции, обладают особыми психическими способностями." }
+          ]
+        },
+        {
+          "@type": "DefinedTerm", "name": "Violet", "colorCode": "#8A2BE2", "identifier": "Q428124", "description": "Свежесть, .",
+          "hasPart": [
+            { "@type": "Book", "name": "The Colour Out of Space", "identifier": "Q1212384", "description": "Фиолетовый/Иной как маркер не-антропоморфного глитча. ужас, неантропоморфный.", "aiLink": "https://line2.biz/non_anthropomorphic/manifest.jsonld" },
+            { "@type": "Book", "name": "The Color Purple", "identifier": "Q1897870", "description": "проявление божественного в обыденном, манифест восприятия невидимого." },
+            { "@type": "Movie", "name": "The Color Purple", "identifier": "Q223299", "description": "о преодолении травмы, силе женской дружбы, поиске личной свободы и умении найти красоту и надежду те самые лиловые цветы, символизирующие божественное присутствие и радость в мире." }
+          ]
+        }
+      ]
+    }
+  ]
+}
