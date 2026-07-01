@@ -1,67 +1,54 @@
 {
-"@context": [
-  "https://line2.biz/context.jsonld",
-  { "svgLibrary": { "@id": "https://schema.org/codeRepository", "@type": "@id"  } 
-  }
-],
+  "@context": {
+    "@vocab": "https://schema.org/",    
+    "dc": "https://www.dublincore.org/",
+    "rs": "https://line2.biz/rs_973#",
+    "wd": "http://www.wikidata.org/entity/",
+    "aiLink": { "@id": "schema:subjectOf", "@type": "@id" },
+    "entropy": "rs:entropy",
+    "vibration": "rs:vibration",
+    "induction": "rs:induction",
+    "lat": "latitude",
+    "lon": "longitude",
+    "colorCode": "color",
+    "wiki": { "@id": "schema:sameAs", "@type": "@id" },
+    "repo": { "@id": "schema:codeRepository", "@type": "@id" },
+    "gallery": { "@id": "schema:url", "@type": "@id" },
+    "subject": "dc:subject",
+    "abstract": "dc:description",
+    "provenance": "dc:provenance"
+  },
   "@type": "Dataset",
   "name": "CRYPTOPHASIA",
-  "svgLibrary": "https://api.github.com/repos/yarosh9/grdnt/contents/svg/",
   "description": "Исследовательская база протокола rs_973 по цветовой семиотике и физике восприятия.",
   "url": "https://line2.biz/cryptophasia",
   "sameAs": ["https://github.com/yarosh9/grdnt", "https://github.com/yarosh9/CRYPTOPHASIA"],
-  "creator": { "@type": "Person", "name": "yarosh9", "url": "https://github.com/yarosh9" },
   "hasPart": [
     {
       "@type": "ItemList",
       "name": "Color Theory",
       "@id": "wd:Q1520130",
       "itemListElement": [ 
-        { "@type": "Person", "name": "Johann Wolfgang von Goethe", "@id": "wd:Q5879", "description": "немецкий философ и поэт.", "knowsAbout": [ { "@type": "Book", "@id": "wd:Q112667736", "name": "Theory of Colours" } ] },
-        { "@type": "Person", "name": "Wilhelm Ostwald", "@id": "wd:Q12658", "description": "Baltic German chemist", "aiLink": "https://line2.biz/cryptophasia/background/colors_ostwald.txt" },
-        { "@type": "Person", "name": "Hermann von Helmholtz", "@id": "wd:Q60024", "description": "German physicist and physiologist, Тео́рия цветоощуще́ния Гельмго́льца Юнга" },
-        { "@type": "Person", "name": "Carl Jung", "@id": "wd:Q41532", "description": "архетипичное значение цветов", "aiLink": "https://line2.biz/cryptophasia/background/colors_jung.txt" },
-        { "@type": "Person", "name": "Johannes Itten", "@id": "wd:Q123138", "description": "Цвет в дизайне и искусстве, субъективное переживание и контрасты" },
-        { "@type": "Person", "name": "Wassily Kandinsky", "@id": "wd:Q61064", "description": "Цвет в искусстве", "aiLink": "https://line2.biz/cryptophasia/background/colors_kandinsky.txt" },
-        { "@type": "Person", "name": "Josef Albers", "@id": "wd:Q170071", "description": "German-American designer, painter, educator and typographer.", "knowsAbout": [ { "@type": "CreativeWork", "@id": "wd:Q79265519", "name": "Interaction in Color" } ] },
-        { "@type": "Person", "name": "James J. Gibson", "@id": "wd:Q737823", "description": "American psychologist.", "aiLink": "https://line2.biz/cryptophasia/background/colors_gibson.txt" },
-        { "@type": "Person", "name": "Kassia St. Clair", "@id": "wd:Q128710924", "description": "writer,", "knowsAbout": [ { "@type": "Book", "@id": "wd:Q125806080", "name": "The Secret Lives of Colour" } ] },
-        { "@type": "Person", "name": "Michel Pastoureau", "@id": "wd:Q2497623", "description": "French historian, colors Books." },
-        { "@type": "Person", "name": "James Gurney", "@id": "wd:Q3161126", "description": "American writer and artist, Color and Light" },
-        { "@type": "Person", "name": "Rudolf Arnheim","@id": "wd:Q213642", "description": "German psychologist", "aiLink": "https://line2.biz/cryptophasia/background/colors_arnheim.txt", "knowsAbout": [ { "@type": "Book", "@id": "wd:Q19690366", "name": "Art and visual perception" } ] }, 
-        { "@type": "DefinedTerm", "name": "Gyüshyi", "@id": "wd:Q2855926", "description": "Тибетская система пяти первоэлементов (Jung-wa Nga), определяющая метафизические свойства цветов.", "aiLink": "https://line2.biz/cryptophasia/background/colors_gyüshyi.txt",
+        { "@type": "Person", "name": "000","@id": "wd:000", "description": "000", "aiLink": "https://line2.biz/cryptophasia/background/colors_arnheim.txt", "knowsAbout": [ { "@type": "Book", "@id": "wd:000", "name": "000" } ] }, 
+        { "@type": "DefinedTerm", "name": "000", "@id": "wd:000", "description": "000.",
           "hasPart": [
-            { "@type": "DefinedTerm", "name": "Aether", "@id": "wd:Q381913", "colorCode": "#0000FF", "description": "blue"  },
-            { "@type": "DefinedTerm", "name": "Air", "@id": "wd:Q2637489", "colorCode": "#00FF00", "description": "green"  },
-            { "@type": "DefinedTerm", "name": "Water", "@id": "wd:Q2637515", "colorCode": "#FFFFFF", "description": "white"  },
-            { "@type": "DefinedTerm", "name": "Fire", "@id": "wd:Q2723512", "colorCode": "#FF0000", "description": "red" },
-            { "@type": "DefinedTerm", "name": "Earth", "@id": "wd:Q2488752", "colorCode": "#FFFF00", "description": "yellow"  }
+            { "@type": "DefinedTerm", "name": "000", "@id": "wd:000", "colorCode": "#FF0000", "description": "000" },
+            { "@type": "DefinedTerm", "name": "000", "@id": "wd:000", "colorCode": "#FFFF00", "description": "000"  }
           ]
-        },
-        { "@type": "DefinedTerm", "name": "Alchemy", "@id": "wd:Q39689", "description": "Классическая алхимическая триада трансформации материи.",
-          "hasPart": [
-            { "@type": "DefinedTerm", "name": "Nigredo", "@id": "wd:Q683745", "colorCode": "#000000", "description": "Чернение, гниение, распад" },
-            { "@type": "DefinedTerm", "name": "Albedo", "@id": "wd:Q2110050", "colorCode": "#FFFFFF", "description": "Беление, очищение" },
-            { "@type": "DefinedTerm", "name": "Citrinitas", "@id": "wd:Q2770148", "colorCode": "#FFD700", "description": "Желтение, солнечный свет, мудрость." },
-            { "@type": "DefinedTerm", "name": "Rubedo", "@id": "wd:Q18087977", "colorCode": "#FF0000", "description": "Покраснение, завершение, просветление" }
-          ]
-        },
-        { "@type": "DefinedTerm", "name": "CIE 1931", "@id": "wd:Q374617", "description": "Математическая модель цветового пространства.", "inDefinedTermSet": [ { "@type": "Organization", "url": "https://cie.co.at/", "name": "Commission internationale de l'éclairage" } ] },
-        { "@type": "DefinedTerm", "name": "Pantone Color System", "@id": "wd:Q849495", "description": "Система подбора цвета.", "inDefinedTermSet": [ { "@type": "Organization", "url": "https://www.pantone.com/", "name": "Pantone LLC", "description": "Институт цвета Pantone.", "aiLink": "https://raw.githubusercontent.com/yarosh9/grdnt/main/svg/0101_.svg" } ] }
+        }
       ]
     },
     {
       "@type": "ItemList",
       "name": "Color Symbolism",
-      "@id": "wd:Q1561963",
-      "description": "Richard Of York Gave Battle In Vain.",
+      "@id": "wd:000",
+      "description": "000.",
       "itemListElement": [
         {
           "@type": "DefinedTerm", "name": "White", "colorCode": "#FFFFFF", "@id": "wd:Q23444", "description": "Чистота, невинность, стерильность, начало.",
           "hasPart": [
-            { "@type": "CreativeWork", "name": "High key", "@id": "wd:Q16943521", "description": "light art style. Технический дескриптор для участков с минимальной плотностью кода." },
+            { "@type": "CreativeWork", "name": "High key", "@id": "wd:Q16943521", "description": "белое на белом. Технический дескриптор для участков с минимальной плотностью кода." },
             { "@type": "Person", "name": "Kenya Hara", "@id": "wd:Q973509", "description": "Философское обоснование «белого» не как пустоты, а как предельной информационной емкости. Япония." },
-            { "@type": "Person", "name": "Vladimir Weisberg", "@id": "wd:Q4106032", "description": "painter, master of 'white on white' painting, explored the metaphysical essence of light and form." },
             { "@type": "Person", "name": "Herman Melville", "@id": "wd:Q4985", 
               "hasPart": [
                 { "@type": "Book", "name": "Moby-Dick", "@id": "wd:Q174596", "description": "ужас, сила, неотвратимость." },

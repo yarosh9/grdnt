@@ -1,0 +1,46 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "CRYPTOPHASIA Tunnel Pattern",
+        "description": "Visual form constant derived from Klüver's mechanisms of hallucinations",
+        "creator": "CRYPTOPHASIA_Project",
+        "isBasedOn": "Klüver, H. (1942). Mechanisms of hallucinations",
+        "keywords": ["form constant", "tunnel", "neuro-visual"],
+        "additionalProperty": [
+          { "@type": "PropertyValue", "name": "patternType", "value": "tunnel" },
+          { "@type": "PropertyValue", "name": "frequency", "value": "1.5" },
+          { "@type": "PropertyValue", "name": "amplitude", "value": "0.8" },
+          { "@type": "PropertyValue", "name": "radialDensity", "value": "high" }
+        ]
+      }
+    </script>
+    <linearGradient id="myLinearGradientStops">
+      <stop offset="0.0" stop-color="#000000" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#000000" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1.0" stop-color="#ffffff" stop-opacity="1" />
+    </linearGradient>
+    -- declaration --
+    <linearGradient id="horizontalGradient_1" 
+      spreadMethod="repeat"
+      xlink:href="#myLinearGradientStops"
+      x1="0" y1="0" x2="0" y2="0.25" />
+    <linearGradient id="horizontalGradient_2" 
+      spreadMethod="repeat"
+      xlink:href="#myLinearGradientStops"
+      x1="0" y1="0.25" x2="0" y2="0" />
+    -- declaration --
+    <mask id="mask1">
+      <rect x="0" y="0" width="1000" height="1000" fill="url(#horizontalGradient_1)" transform="rotate(90 500 500)" />
+    </mask>
+    <mask id="mask2">
+      <rect x="0" y="0" width="1000" height="1000" fill="url(#horizontalGradient_2)" transform="rotate(90 500 500)" />
+    </mask>
+  </defs>
+  <rect x="0" y="0" width="1000" height="1000" fill="#000000" />
+  <rect x="0" y="0" width="1000" height="1000" fill="url(#horizontalGradient_1)" mask="url(#mask1)" />
+  <rect x="0" y="0" width="1000" height="1000" fill="url(#horizontalGradient_2)" mask="url(#mask2)" />
+</svg>
