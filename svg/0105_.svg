@@ -1,0 +1,29 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs><link rel="describedby" type="application/ld+json" href="https://raw.githubusercontent.com/yarosh9/grdnt/refs/heads/master/global_color_map.jsonld" title="Dictionary of Color Semiotics" />
+    <link rel="describedby" type="application/ld+json" href="https://raw.githubusercontent.com/yarosh9/grdnt/refs/heads/master/Kluver_formConstants.jsonld" title="Heinrich Klüver's Form Constants" /><title>Dictionary of Color Semiotics | href="https://raw.githubusercontent.com/yarosh9/grdnt/refs/heads/master/global_color_map.jsonld"</title>
+    <linearGradient id="a">
+      <stop offset="0" style="stop-color:#fff;stop-opacity:1"/>
+      <stop offset=".03" style="stop-color:#fff;stop-opacity:1"/>
+      <stop offset=".03" style="stop-color:#fff;stop-opacity:.5"/>
+      <stop offset=".5" style="stop-color:#fff;stop-opacity:.5"/>
+      <stop offset=".5" style="stop-color:#fff;stop-opacity:0"/>
+      <stop offset="1" style="stop-color:#fff;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="b" x1="0" x2=".05" y1="0" y2="0" gradientTransform="rotate(33)" spreadMethod="reflect"/>
+    <linearGradient xlink:href="#a" id="c" x1="0" x2=".05" y1="0" y2="0" gradientTransform="rotate(-33)" spreadMethod="reflect"/>
+    <linearGradient id="d" x1="0" x2=".5" y1="0" y2="0" spreadMethod="reflect">
+      <stop offset="0" style="stop-color:#020;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#040;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" x2="0" y1="0" y2=".5" spreadMethod="reflect">
+      <stop offset="0" style="stop-color:#011100;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#360;stop-opacity:1"/>
+    </linearGradient>
+    <mask id="e">
+      <path d="M0 0h1000v1000H0z" style="fill:url(#b);fill-opacity:.5;stroke:none"/>
+      <path d="M0 0h1000v1000H0z" style="fill:url(#c);fill-opacity:.5;stroke:none"/>
+    </mask>
+  </defs>
+  <path d="M0 0h1000v1000H0z" style="fill:url(#d);fill-opacity:1;stroke:none"/>
+  <path d="M0 0h1000v1000H0z" mask="url(#e)" style="fill:url(#g);fill-opacity:1;stroke:none"/>
+</svg>

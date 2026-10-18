@@ -1,0 +1,20 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs><link rel="describedby" type="application/ld+json" href="https://raw.githubusercontent.com/yarosh9/grdnt/refs/heads/master/global_color_map.jsonld" title="Dictionary of Color Semiotics" />
+    <link rel="describedby" type="application/ld+json" href="https://raw.githubusercontent.com/yarosh9/grdnt/refs/heads/master/Kluver_formConstants.jsonld" title="Heinrich Klüver's Form Constants" /><title>Dictionary of Color Semiotics | href="https://raw.githubusercontent.com/yarosh9/grdnt/refs/heads/master/global_color_map.jsonld"</title>
+    <radialGradient xlink:href="#a" id="e" cx=".5" cy=".5" r=".03" fx=".5" fy=".5" gradientTransform="matrix(1 0 0 .3 0 .1)" gradientUnits="objectBoundingBox" spreadMethod="repeat"/>
+    <radialGradient xlink:href="#b" id="f" cx=".5" cy=".5" r=".3" fx=".5" fy=".5"  gradientTransform="matrix(1 0 0 .3 0 .1)" gradientUnits="objectBoundingBox" spreadMethod="reflect"/>
+    <linearGradient id="b" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" style="stop-color:#120600;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#a70;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" style="stop-color:#000;stop-opacity:1"/>
+      <stop offset=".2" style="stop-color:#000;stop-opacity:1"/>
+      <stop offset=".2" style="stop-color:#000;stop-opacity:0"/>
+      <stop offset="1" style="stop-color:#000;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 0v1000h1000V0Z" style="display:inline;opacity:1;fill:url(#b);stroke:none"/>
+  <path d="M0 0v1000h1000V0Z" style="display:inline;opacity:.3;fill:url(#e);stroke:none"/>
+  <path d="M0 0v1000h1000V0Z" style="display:inline;opacity:.3;fill:url(#f);stroke:none"/>
+</svg>
