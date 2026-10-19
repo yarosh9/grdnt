@@ -1,6 +1,6 @@
 <svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
     <defs><link rel="describedby" type="application/ld+json" href="https://raw.githubusercontent.com/yarosh9/grdnt/refs/heads/master/global_color_map.jsonld" title="Dictionary of Color Semiotics" />
-    <link rel="describedby" type="application/ld+json" href="https://raw.githubusercontent.com/yarosh9/grdnt/refs/heads/master/Kluver_formConstants.jsonld" title="Heinrich Klüver's Form Constants" /><title>Dictionary of Color Semiotics | href="https://raw.githubusercontent.com/yarosh9/grdnt/refs/heads/master/global_color_map.jsonld"</title>
+    <link rel="describedby" type="application/ld+json" href="https://raw.githubusercontent.com/yarosh9/grdnt/refs/heads/master/Kluver_formConstants.jsonld" title="Heinrich Klüver's Form Constants" />
     <linearGradient id="l1">
       <stop offset="0.000" style="stop-color:#555500;stop-opacity:1" />
       <stop offset="0.249" style="stop-color:#ffff00;stop-opacity:1" />
